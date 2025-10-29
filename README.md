@@ -1,5 +1,4 @@
 # kali-lab
-# Kali Lab
 
 ## Purpose
 Notes, scripts and automation for Kali Linux cyber security learning.
