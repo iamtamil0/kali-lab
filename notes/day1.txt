@@ -5,3 +5,7 @@ Quick scan summary:
 setup_target: failed to determine route to 192.168.1.80
 WARNING: No targets were specified, so 0 hosts scanned.
 # Nmap done at Thu Oct 30 05:13:17 2025 -- 0 IP addresses (0 hosts up) scanned in 14.70 seconds
+# Nmap 7.94SVN scan initiated Thu Oct 30 05:13:03 2025 as: nmap -sS -sV -sC -T4 -oA /home/pentest/kali-lab/scans/day1-services 192.168.1.80
+setup_target: failed to determine route to 192.168.1.80
+WARNING: No targets were specified, so 0 hosts scanned.
+# Nmap done at Thu Oct 30 05:13:17 2025 -- 0 IP addresses (0 hosts up) scanned in 14.70 seconds
