@@ -1,0 +1,2 @@
+# Nmap 7.94SVN scan initiated Thu Oct 30 05:11:33 2025 as: nmap -sS -T4 -Pn -oA /home/pentest/kali-lab/scans/day1-quick 192.168.1.80
+# Nmap done at Thu Oct 30 05:11:33 2025 -- 0 IP addresses (0 hosts up) scanned in 0.71 seconds
