@@ -1,0 +1,15 @@
+==============================
+ Advanced Recon Summary
+ Target: google.com
+ Date: 2025-12-10_13-02
+==============================
+
+Subdomains found:
+
+
+Open ports:
+
+
+CVE Reports:
+Saved under day4_advanced/output_2025-12-10_13-02/*.json
+
