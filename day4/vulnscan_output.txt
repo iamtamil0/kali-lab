@@ -1,0 +1,40 @@
+===== Basic Vulnerability Scan =====
+Target: 127.0.0.1
+Date: Wed Dec 10 12:14:28 UTC 2025
+
+---- Detecting Open Ports ----
+16634
+16635
+2000
+2222
+33679
+41273
+53
+68
+
+---- Service Version Info ----
+Checking port 16634...
+Port 16634 is open
+
+Checking port 16635...
+Port 16635 is open
+
+Checking port 2000...
+Port 2000 is open
+
+Checking port 2222...
+Port 2222 is open
+
+Checking port 33679...
+Port 33679 is open
+
+Checking port 41273...
+Port 41273 is open
+
+Checking port 53...
+Port 53 closed or filtered
+
+Checking port 68...
+Port 68 closed or filtered
+
+===== Scan Complete =====
