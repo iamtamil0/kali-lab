@@ -1,0 +1,295 @@
+===== Recon Report =====
+Date: Wed Dec 10 06:31:57 UTC 2025
+
+---- Public IP ----
+4.240.18.229
+
+---- Local IP ----
+127.0.0.1/8
+10.0.2.229/16
+172.17.0.1/16
+
+---- Open Ports (ss command) ----
+Netid State  Recv-Q Send-Q   Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0        127.0.0.53%lo:53         0.0.0.0:*          
+udp   UNCONN 0      0      10.0.2.229%eth0:68         0.0.0.0:*          
+tcp   LISTEN 0      4096         127.0.0.1:40817      0.0.0.0:*          
+tcp   LISTEN 0      128            0.0.0.0:2000       0.0.0.0:*          
+tcp   LISTEN 0      4096     127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      511          127.0.0.1:42943      0.0.0.0:*          
+tcp   LISTEN 0      128            0.0.0.0:2222       0.0.0.0:*          
+tcp   LISTEN 0      512          127.0.0.1:16634      0.0.0.0:*          
+tcp   LISTEN 0      512          127.0.0.1:16635      0.0.0.0:*          
+tcp   LISTEN 0      128               [::]:2000          [::]:*          
+tcp   LISTEN 0      512              [::1]:16634         [::]:*          
+tcp   LISTEN 0      512              [::1]:16635         [::]:*          
+tcp   LISTEN 0      128               [::]:2222          [::]:*          
+
+---- Active Network Connections ----
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 127.0.0.1:40817         0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:2000            0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:42943         0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:2222            0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:16634         0.0.0.0:*               LISTEN     
+tcp        0      0 127.0.0.1:16635         0.0.0.0:*               LISTEN     
+tcp        0      0 10.0.2.229:56294        13.107.213.68:443       TIME_WAIT  
+tcp        0      0 10.0.2.229:37410        20.189.173.12:443       TIME_WAIT  
+tcp        0      0 127.0.0.1:42943         127.0.0.1:55612         ESTABLISHED
+tcp        0      0 10.0.2.229:38292        34.160.111.145:80       TIME_WAIT  
+tcp        0      0 127.0.0.1:42943         127.0.0.1:55608         ESTABLISHED
+tcp6       0      0 :::2000                 :::*                    LISTEN     
+tcp6       0      0 ::1:16634               :::*                    LISTEN     
+tcp6       0      0 ::1:16635               :::*                    LISTEN     
+tcp6       0      0 :::2222                 :::*                    LISTEN     
+tcp6       0      0 127.0.0.1:55608         127.0.0.1:42943         ESTABLISHED
+tcp6       0      0 10.0.2.229:37202        20.219.235.1:443        ESTABLISHED
+tcp6       0      0 10.0.2.229:57816        20.60.85.197:443        ESTABLISHED
+tcp6       0      0 127.0.0.1:55612         127.0.0.1:42943         ESTABLISHED
+tcp6       0      0 10.0.2.229:36378        20.207.70.99:443        ESTABLISHED
+udp        0      0 10.0.2.229:38386        168.63.129.16:53        ESTABLISHED
+udp        0      0 127.0.0.53:53           0.0.0.0:*                          
+udp        0      0 10.0.2.229:68           0.0.0.0:*                          
+raw6       0      0 :::58                   :::*                    7          
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ]         STREAM     CONNECTED     251102   /run/docker.sock
+unix  3      [ ]         STREAM     CONNECTED     11976    
+unix  3      [ ]         STREAM     CONNECTED     3958     
+unix  3      [ ]         STREAM     CONNECTED     20572    
+unix  3      [ ]         STREAM     CONNECTED     18025    
+unix  3      [ ]         STREAM     CONNECTED     20623    
+unix  2      [ ACC ]     STREAM     LISTENING     18962    /tmp/vscode-ipc-9cf942b3-77b3-4a24-b942-3f910a695692.sock
+unix  3      [ ]         STREAM     CONNECTED     20557    
+unix  2      [ ACC ]     STREAM     LISTENING     20030    /tmp/vscode-git-d2f284fa69.sock
+unix  3      [ ]         STREAM     CONNECTED     15373    
+unix  2      [ ACC ]     STREAM     LISTENING     20511    /tmp/vscode-ipc-b391c82f-990d-4915-b749-dcdafabd773f.sock
+unix  3      [ ]         STREAM     CONNECTED     20607    
+unix  2      [ ]         DGRAM      CONNECTED     3964     
+unix  3      [ ]         STREAM     CONNECTED     18026    
+unix  3      [ ]         STREAM     CONNECTED     20624    
+unix  3      [ ]         STREAM     CONNECTED     20559    
+unix  3      [ ]         STREAM     CONNECTED     18027    
+unix  3      [ ]         STREAM     CONNECTED     3987     /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     20558    
+unix  2      [ ACC ]     STREAM     LISTENING     3572     /run/systemd/resolve/io.systemd.Resolve
+unix  3      [ ]         STREAM     CONNECTED     18028    
+unix  3      [ ]         STREAM     CONNECTED     3970     /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     20608    
+unix  3      [ ]         STREAM     CONNECTED     251154   
+unix  3      [ ]         STREAM     CONNECTED     3986     
+unix  3      [ ]         STREAM     CONNECTED     20612    
+unix  3      [ ]         STREAM     CONNECTED     11977    
+unix  3      [ ]         STREAM     CONNECTED     3969     /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     21529    /run/docker.sock
+unix  3      [ ]         STREAM     CONNECTED     251156   
+unix  3      [ ]         STREAM     CONNECTED     3965     
+unix  3      [ ]         STREAM     CONNECTED     20555    
+unix  3      [ ]         STREAM     CONNECTED     21610    /run/docker.sock
+unix  3      [ ]         STREAM     CONNECTED     18024    
+unix  3      [ ]         STREAM     CONNECTED     20560    
+unix  3      [ ]         STREAM     CONNECTED     15333    
+unix  3      [ ]         STREAM     CONNECTED     7900     
+unix  3      [ ]         STREAM     CONNECTED     20570    /run/docker.sock
+unix  3      [ ]         STREAM     CONNECTED     6925     /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     251153   
+unix  2      [ ACC ]     STREAM     LISTENING     13521    /run/docker.sock
+unix  3      [ ]         STREAM     CONNECTED     20556    
+unix  3      [ ]         STREAM     CONNECTED     18029    
+unix  2      [ ACC ]     STREAM     LISTENING     15381    /var/run/docker/metrics.sock
+unix  3      [ ]         STREAM     CONNECTED     20611    
+unix  2      [ ACC ]     STREAM     LISTENING     13654    /var/run/docker/libnetwork/0f74f3582cd2.sock
+unix  3      [ ]         STREAM     CONNECTED     15332    
+unix  3      [ ]         STREAM     CONNECTED     251155   
+unix  3      [ ]         STREAM     CONNECTED     20609    
+unix  2      [ ACC ]     STREAM     LISTENING     78742    /var/snap/lxd/common/lxd/unix.socket
+unix  3      [ ]         STREAM     CONNECTED     21605    /run/docker.sock
+unix  3      [ ]         STREAM     CONNECTED     251157   
+unix  2      [ ACC ]     STREAM     LISTENING     79799    /var/snap/lxd/common/lxd-user/unix.socket
+unix  3      [ ]         STREAM     CONNECTED     20569    
+unix  2      [ ACC ]     STREAM     LISTENING     11138    /root/.codespaces/shared/cs-agent.sock
+unix  2      [ ]         DGRAM      CONNECTED     15622    
+unix  3      [ ]         STREAM     CONNECTED     251152   
+unix  3      [ ]         STREAM     CONNECTED     13527    /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     3966     
+unix  3      [ ]         DGRAM      CONNECTED     1341     /run/systemd/notify
+unix  3      [ ]         STREAM     CONNECTED     20610    
+unix  2      [ ACC ]     STREAM     LISTENING     1344     /run/systemd/private
+unix  3      [ ]         STREAM     CONNECTED     129386   
+unix  3      [ ]         STREAM     CONNECTED     18035    /run/docker.sock
+unix  2      [ ACC ]     STREAM     LISTENING     13854    /run/containerd/s/ef82d641aac0ba107bf095a5ecf0494758d5bc017d78960705d70abc73101ed8
+unix  2      [ ACC ]     STREAM     LISTENING     1346     /run/systemd/userdb/io.systemd.DynamicUser
+unix  3      [ ]         STREAM     CONNECTED     20444    
+unix  3      [ ]         STREAM     CONNECTED     19380    
+unix  2      [ ACC ]     STREAM     LISTENING     1347     /run/systemd/io.system.ManagedOOM
+unix  3      [ ]         DGRAM      CONNECTED     4982     
+unix  3      [ ]         STREAM     CONNECTED     18081    /run/docker.sock
+unix  3      [ ]         STREAM     CONNECTED     129391   
+unix  3      [ ]         STREAM     CONNECTED     6191     
+unix  3      [ ]         STREAM     CONNECTED     3980     /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     5074     
+unix  2      [ ACC ]     STREAM     LISTENING     1355     /run/lvm/lvmpolld.socket
+unix  2      [ ]         DGRAM      CONNECTED     5500     
+unix  3      [ ]         STREAM     CONNECTED     18033    /run/docker.sock
+unix  2      [ ]         DGRAM                    1358     /run/systemd/journal/syslog
+unix  3      [ ]         STREAM     CONNECTED     129390   
+unix  3      [ ]         STREAM     CONNECTED     19248    
+unix  3      [ ]         STREAM     CONNECTED     18211    
+unix  3      [ ]         STREAM     CONNECTED     6152     /run/systemd/journal/stdout
+unix  2      [ ACC ]     STREAM     LISTENING     1360     /run/systemd/fsck.progress
+unix  3      [ ]         STREAM     CONNECTED     4052     /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM      CONNECTED     4983     
+unix  8      [ ]         DGRAM      CONNECTED     1368     /run/systemd/journal/dev-log
+unix  3      [ ]         STREAM     CONNECTED     5519     
+unix  7      [ ]         DGRAM      CONNECTED     1370     /run/systemd/journal/socket
+unix  3      [ ]         STREAM     CONNECTED     17038    
+unix  3      [ ]         STREAM     CONNECTED     4069     
+unix  2      [ ACC ]     STREAM     LISTENING     1372     /run/systemd/journal/stdout
+unix  2      [ ACC ]     SEQPACKET  LISTENING     1375     /run/udev/control
+unix  3      [ ]         STREAM     CONNECTED     4054     /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM      CONNECTED     1442     
+unix  3      [ ]         STREAM     CONNECTED     18658    
+unix  3      [ ]         STREAM     CONNECTED     5714     /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     4632     
+unix  3      [ ]         STREAM     CONNECTED     18207    
+unix  3      [ ]         STREAM     CONNECTED     17041    
+unix  3      [ ]         STREAM     CONNECTED     1554     /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     20449    
+unix  3      [ ]         STREAM     CONNECTED     19376    
+unix  3      [ ]         STREAM     CONNECTED     17007    
+unix  3      [ ]         STREAM     CONNECTED     3550     /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     5815     
+unix  2      [ ]         DGRAM      CONNECTED     5682     
+unix  2      [ ACC ]     STREAM     LISTENING     970      /run/systemd/journal/io.systemd.journal
+unix  3      [ ]         STREAM     CONNECTED     18657    
+unix  3      [ ]         STREAM     CONNECTED     17159    /run/docker.sock
+unix  3      [ ]         STREAM     CONNECTED     5013     
+unix  3      [ ]         STREAM     CONNECTED     20446    
+unix  3      [ ]         STREAM     CONNECTED     19247    
+unix  3      [ ]         STREAM     CONNECTED     17039    
+unix  3      [ ]         STREAM     CONNECTED     5064     
+unix  3      [ ]         STREAM     CONNECTED     129387   
+unix  3      [ ]         STREAM     CONNECTED     5028     
+unix  3      [ ]         STREAM     CONNECTED     20447    
+unix  3      [ ]         STREAM     CONNECTED     19379    
+unix  3      [ ]         STREAM     CONNECTED     18209    
+unix  3      [ ]         STREAM     CONNECTED     17008    
+unix  3      [ ]         STREAM     CONNECTED     5694     
+unix  3      [ ]         STREAM     CONNECTED     129393   
+unix  3      [ ]         STREAM     CONNECTED     19374    
+unix  3      [ ]         STREAM     CONNECTED     17042    
+unix  3      [ ]         STREAM     CONNECTED     2160     
+unix  3      [ ]         STREAM     CONNECTED     19381    
+unix  3      [ ]         STREAM     CONNECTED     129389   
+unix  3      [ ]         STREAM     CONNECTED     20443    
+unix  3      [ ]         STREAM     CONNECTED     19375    
+unix  3      [ ]         STREAM     CONNECTED     18210    
+unix  3      [ ]         STREAM     CONNECTED     17051    
+unix  3      [ ]         STREAM     CONNECTED     5082     
+unix  2      [ ]         STREAM     CONNECTED     248784   /run/docker.sock
+unix  3      [ ]         STREAM     CONNECTED     129392   
+unix  3      [ ]         STREAM     CONNECTED     6239     
+unix  3      [ ]         STREAM     CONNECTED     3993     /run/systemd/journal/stdout
+unix  2      [ ACC ]     STREAM     LISTENING     3910     /run/dbus/system_bus_socket
+unix  2      [ ACC ]     STREAM     LISTENING     9123     /tmp/dotnet-diagnostic-1624-4478-socket
+unix  3      [ ]         STREAM     CONNECTED     5100     
+unix  2      [ ]         DGRAM      CONNECTED     5531     
+unix  2      [ ACC ]     STREAM     LISTENING     3921     /run/snapd.socket
+unix  3      [ ]         STREAM     CONNECTED     18216    /run/docker.sock
+unix  3      [ ]         STREAM     CONNECTED     5596     /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     5495     
+unix  2      [ ACC ]     STREAM     LISTENING     3923     /run/snapd-snap.socket
+unix  3      [ ]         STREAM     CONNECTED     1740     
+unix  2      [ ]         STREAM     CONNECTED     250899   /run/docker.sock
+unix  3      [ ]         STREAM     CONNECTED     20442    
+unix  3      [ ]         STREAM     CONNECTED     17050    
+unix  3      [ ]         STREAM     CONNECTED     5816     
+unix  2      [ ACC ]     STREAM     LISTENING     3928     /run/uuidd/request
+unix  2      [ ACC ]     STREAM     LISTENING     17845    /var/run/docker/libnetwork/9b7a741ce2b7.sock
+unix  3      [ ]         STREAM     CONNECTED     4070     /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     20445    
+unix  3      [ ]         STREAM     CONNECTED     18214    
+unix  3      [ ]         STREAM     CONNECTED     4085     /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     4042     /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM      CONNECTED     1738     
+unix  3      [ ]         STREAM     CONNECTED     129388   
+unix  3      [ ]         STREAM     CONNECTED     18083    /run/docker.sock
+unix  2      [ ]         STREAM     CONNECTED     249832   /run/docker.sock
+unix  3      [ ]         STREAM     CONNECTED     20448    
+unix  3      [ ]         STREAM     CONNECTED     19377    
+unix  3      [ ]         STREAM     CONNECTED     18212    
+unix  3      [ ]         STREAM     CONNECTED     4057     /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     18208    
+unix  3      [ ]         STREAM     CONNECTED     17040    
+unix  3      [ ]         STREAM     CONNECTED     5695     /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     20514    
+unix  3      [ ]         STREAM     CONNECTED     18659    
+unix  3      [ ]         STREAM     CONNECTED     1739     
+unix  3      [ ]         STREAM     CONNECTED     19378    
+unix  3      [ ]         STREAM     CONNECTED     18215    
+unix  3      [ ]         STREAM     CONNECTED     17043    
+unix  3      [ ]         STREAM     CONNECTED     13472    
+unix  3      [ ]         STREAM     CONNECTED     18673    
+unix  3      [ ]         STREAM     CONNECTED     13540    
+unix  3      [ ]         STREAM     CONNECTED     15383    /run/containerd/containerd.sock
+unix  2      [ ACC ]     STREAM     LISTENING     5054     /run/irqbalance/irqbalance630.sock
+unix  3      [ ]         STREAM     CONNECTED     15385    /run/containerd/containerd.sock
+unix  2      [ ACC ]     STREAM     LISTENING     9182     /tmp/CoreFxPipe_CodespacesVmAgentPipe
+unix  3      [ ]         STREAM     CONNECTED     18674    
+unix  2      [ ACC ]     STREAM     LISTENING     14122    /var/run/docker.sock
+unix  3      [ ]         STREAM     CONNECTED     13194    
+unix  3      [ ]         STREAM     CONNECTED     13471    
+unix  3      [ ]         STREAM     CONNECTED     13195    
+unix  3      [ ]         STREAM     CONNECTED     13539    
+unix  2      [ ]         DGRAM      CONNECTED     2190     
+unix  2      [ ]         DGRAM      CONNECTED     3562     
+unix  3      [ ]         STREAM     CONNECTED     18654    
+unix  2      [ ACC ]     STREAM     LISTENING     16649    /var/run/docker/containerd/containerd-debug.sock
+unix  2      [ ACC ]     STREAM     LISTENING     16652    /var/run/docker/containerd/containerd.sock.ttrpc
+unix  2      [ ]         DGRAM      CONNECTED     2525     
+unix  3      [ ]         STREAM     CONNECTED     13858    
+unix  3      [ ]         STREAM     CONNECTED     18653    
+unix  2      [ ACC ]     STREAM     LISTENING     16653    /var/run/docker/containerd/containerd.sock
+unix  3      [ ]         STREAM     CONNECTED     3967     /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     18652    
+unix  2      [ ACC ]     STREAM     LISTENING     17502    /var/run/docker/metrics.sock
+unix  3      [ ]         STREAM     CONNECTED     13888    
+unix  3      [ ]         DGRAM      CONNECTED     3515     
+unix  3      [ ]         STREAM     CONNECTED     18656    
+unix  3      [ ]         STREAM     CONNECTED     3937     
+unix  3      [ ]         STREAM     CONNECTED     18655    
+unix  3      [ ]         STREAM     CONNECTED     3492     
+unix  3      [ ]         DGRAM      CONNECTED     1342     
+unix  3      [ ]         STREAM     CONNECTED     4976     /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     4614     /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     17506    /var/run/docker/containerd/containerd.sock
+unix  2      [ ]         DGRAM      CONNECTED     974      
+unix  3      [ ]         STREAM     CONNECTED     3943     
+unix  3      [ ]         DGRAM      CONNECTED     3512     
+unix  3      [ ]         DGRAM      CONNECTED     2195     
+unix  3      [ ]         STREAM     CONNECTED     15722    /run/containerd/s/ef82d641aac0ba107bf095a5ecf0494758d5bc017d78960705d70abc73101ed8
+unix  3      [ ]         STREAM     CONNECTED     3968     /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     3917     
+unix  3      [ ]         STREAM     CONNECTED     3916     
+unix  3      [ ]         STREAM     CONNECTED     2187     /run/systemd/journal/stdout
+unix  2      [ ACC ]     STREAM     LISTENING     6271     /run/containerd/containerd.sock.ttrpc
+unix  3      [ ]         STREAM     CONNECTED     17514    /var/run/docker/containerd/containerd.sock
+unix  2      [ ACC ]     STREAM     LISTENING     6273     /run/containerd/containerd.sock
+unix  3      [ ]         DGRAM      CONNECTED     2194     
+unix  3      [ ]         STREAM     CONNECTED     20461    /root/.codespaces/shared/cs-agent.sock
+unix  3      [ ]         STREAM     CONNECTED     2517     
+unix  3      [ ]         STREAM     CONNECTED     17505    
+unix  3      [ ]         DGRAM      CONNECTED     3513     
+unix  3      [ ]         STREAM     CONNECTED     2180     
+unix  3      [ ]         STREAM     CONNECTED     13889    /run/containerd/containerd.sock.ttrpc
+unix  3      [ ]         DGRAM      CONNECTED     3514     
+unix  3      [ ]         STREAM     CONNECTED     2518     /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     17513    
+unix  2      [ ]         DGRAM      CONNECTED     3506     
+unix  3      [ ]         DGRAM      CONNECTED     1343     
+unix  2      [ ACC ]     STREAM     LISTENING     1357     @/org/kernel/linux/storage/multipathd
+unix  2      [ ACC ]     STREAM     LISTENING     3914     @ISCSIADM_ABSTRACT_NAMESPACE
+
+===== End of Report =====
