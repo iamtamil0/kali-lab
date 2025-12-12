@@ -1,0 +1,11 @@
+[*] Detecting best auth log for this system...
+[*] Using log file: /var/log/syslog
+
+[*] Failed Login Attempts:
+
+[*] Successful Login Attempts:
+
+[*] Sudo Usage:
+
+[*] Authentication Failures:
+

@@ -1,0 +1,13 @@
+[*] Using latest PCAP file: capture_2025-12-12_12-59.pcap
+
+[*] Top 10 IP addresses:
+    200 10.0.4.110
+    180 20.207.70.99
+     20 20.150.114.37
+
+[*] HTTP Requests:
+
+[*] Suspicious non-HTTP traffic (>1024 ports):
+     81 10.0.4.110	35812
+      8 10.0.4.110	60924
+
