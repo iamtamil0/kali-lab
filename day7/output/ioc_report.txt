@@ -1,0 +1,29 @@
+===== IOC SCAN =====
+
+[1] Suspicious processes:
+
+[2] Suspicious listening ports:
+
+[3] Suspicious cron jobs:
+/etc/cron.d:
+total 16
+drwxr-xr-x 2 root root 4096 Oct  1 02:09 .
+drwxr-xr-x 1 root root 4096 Dec 12 12:48 ..
+-rw-r--r-- 1 root root  201 Apr  8  2024 e2scrub_all
+
+/etc/cron.daily:
+total 24
+drwxr-xr-x 1 root root 4096 Nov  7 09:42 .
+drwxr-xr-x 1 root root 4096 Dec 12 12:48 ..
+-rwxr-xr-x 1 root root 1478 Mar 22  2024 apt-compat
+-rwxr-xr-x 1 root root  123 Feb  5  2024 dpkg
+-rwxr-xr-x 1 root root 1395 Mar 29  2024 man-db
+
+/etc/cron.weekly:
+total 16
+drwxr-xr-x 2 root root 4096 Nov  7 09:42 .
+drwxr-xr-x 1 root root 4096 Dec 12 12:48 ..
+-rwxr-xr-x 1 root root 1055 Mar 29  2024 man-db
+
+[4] World-writable files (possible backdoors):
+
