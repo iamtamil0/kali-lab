@@ -1,18 +1,24 @@
 ===== System Information =====
-Date: Mon Oct 26 11:56:39 UTC 2026
+Date: Tue Oct 27 11:18:35 UTC 2026
 User: runner
 Uptime:
- 11:56:39 up 0 min,  0 user,  load average: 0.42, 0.10, 0.03
+ 11:18:35 up 1 min,  0 users,  load average: 0.47, 0.27, 0.10
 Disk Usage:
-Filesystem       Size  Used Avail Use% Mounted on
-/dev/root        145G   59G   86G  41% /
-tmpfs            7.9G   84K  7.9G   1% /dev/shm
-tmpfs            3.2G 1016K  3.2G   1% /run
-tmpfs            5.0M     0  5.0M   0% /run/lock
-/dev/nvme0n1p16  881M   64M  756M   8% /boot
-/dev/nvme0n1p15  105M  6.2M   99M   6% /boot/efi
-tmpfs            1.6G   12K  1.6G   1% /run/user/1001
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       145G   56G   89G  39% /
+tmpfs           7.9G     0  7.9G   0% /dev/shm
+tmpfs           3.2G  1.0M  3.2G   1% /run
+efivarfs        128M   32K  128M   1% /sys/firmware/efi/efivars
+tmpfs           7.9G   47M  7.8G   1% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+none            1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+/dev/sda13      989M   81M  842M   9% /boot
+/dev/sda15      105M  6.3M   99M   7% /boot/efi
+none            1.0M     0  1.0M   0% /run/credentials/systemd-networkd.service
+tmpfs           1.6G  8.0K  1.6G   1% /run/user/1001
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+none            1.0M     0  1.0M   0% /run/credentials/serial-getty@ttyS0.service
 Memory Usage:
                total        used        free      shared  buff/cache   available
-Mem:            15Gi       1.4Gi        12Gi        39Mi       2.4Gi        14Gi
+Mem:            15Gi       960Mi        14Gi        87Mi       882Mi        14Gi
 Swap:          3.0Gi          0B       3.0Gi
